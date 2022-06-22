@@ -1,0 +1,36 @@
+div{
+    width: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.shift{
+    background-color: rgb(141, 179, 230);
+    transition-timing-function: ease-in;
+}
+.shift:hover{
+    background-color: rgb(33, 60, 98);
+    transform: translate(10px,10px) ;
+}
+
+.rotation{
+    background-color: rgb(141, 179, 230);
+}
+.rotation:hover{
+    background-color: rgb(33, 60, 98);
+    transform: rotate(40deg);
+}
+
+.scaling{
+    background-color: rgb(141, 179, 230);
+}
+.scaling:hover{
+    background-color: rgb(33, 60, 98);
+    transform: scale(1.2);
+}
+
